@@ -1,0 +1,224 @@
+[
+  {
+    "id": "museum",
+    "source": "https://www.purilukisanmuseum.com/museum-puri-lukisan.html",
+    "file": "public/photos/venues/museum-filled.webp",
+    "retrieved": "2026-10-21"
+  },
+  {
+    "id": "cooking",
+    "source": "https://cookinglessonbali.com/kids-cooking-class-ubud",
+    "file": "public/photos/venues/cooking-filled.webp",
+    "retrieved": "2026-10-21"
+  },
+  {
+    "id": "surf",
+    "source": "https://seminyak.hotelindigo.com/id/offers/seminyak-is-surfing",
+    "file": "public/photos/venues/surf-filled.webp",
+    "retrieved": "2026-10-21"
+  },
+  {
+    "id": "pool",
+    "source": "https://www.ihg.com/hotelindigo/hotels/us/en/bali/dpsin/hoteldetail/amenities",
+    "file": "public/photos/venues/pool-filled.webp",
+    "retrieved": "2026-10-21"
+  },
+  {
+    "id": "threads",
+    "source": "https://threadsoflife.com/pages/contact",
+    "file": "public/photos/venues/threads-filled.webp",
+    "retrieved": "2026-10-21"
+  },
+  {
+    "id": "bintang",
+    "source": "https://www.bintangsupermarket.com/store",
+    "file": "public/photos/venues/bintang-filled.webp",
+    "retrieved": "2026-10-21"
+  },
+  {
+    "id": "village",
+    "source": "https://seminyakvillage.com/",
+    "file": "public/photos/venues/village-filled.webp",
+    "retrieved": "2026-10-21"
+  },
+  {
+    "id": "biasa",
+    "source": "https://biasagroup.com/pages/store-information",
+    "file": "public/photos/venues/biasa-filled.webp",
+    "retrieved": "2026-10-21"
+  },
+  {
+    "id": "monkey-forest",
+    "source": "https://monkeyforestubud.com/",
+    "file": "public/photos/venues/monkey-forest-filled.webp",
+    "retrieved": "2026-10-21"
+  },
+  {
+    "id": "seasalt",
+    "source": "https://www.hyatt.com/alila-hotels-and-resorts/en-US/dpsas-alila-seminyak/seasalt",
+    "file": "public/photos/venues/seasalt-filled.webp",
+    "retrieved": "2026-10-21"
+  },
+  {
+    "id": "sidan-swing",
+    "source": "https://baliswing.com/attraction/bali-swing-ubud-swing/",
+    "file": "public/photos/venues/sidan-swing-filled.webp",
+    "retrieved": "2026-10-21"
+  },
+  {
+    "id": "alas-harum",
+    "source": "https://alasharum.com/en/alas-harum-bali/ride-attraction",
+    "file": "public/photos/venues/alas-harum-filled.webp",
+    "retrieved": "2026-10-21"
+  },
+  {
+    "id": "batur-sunset-jeep",
+    "source": "https://www.bagusbalisunrise.com/mount-batur-sunset-jeep.html",
+    "file": "public/photos/venues/batur-sunset-jeep-filled.webp",
+    "retrieved": "2026-10-21"
+  },
+  {
+    "id": "manisan",
+    "source": "https://manisanbali.com/",
+    "file": "public/photos/venues/manisan-filled.webp",
+    "retrieved": "2026-10-21"
+  },
+  {
+    "id": "balibuda",
+    "source": "https://balibuda.com/our-locations/",
+    "file": "public/photos/venues/balibuda-filled.webp",
+    "retrieved": "2026-10-21"
+  },
+  {
+    "id": "biku",
+    "source": "https://bikubali.com/",
+    "file": "public/photos/venues/biku-filled.webp",
+    "retrieved": "2026-10-21"
+  },
+  {
+    "id": "setiadarma",
+    "source": "https://www.maskandpuppets.com/",
+    "file": "public/photos/venues/setiadarma-filled.webp",
+    "retrieved": "2026-10-21"
+  },
+  {
+    "id": "birdpark",
+    "source": "https://www.balibirdpark.com/",
+    "file": "public/photos/venues/birdpark-filled.webp",
+    "retrieved": "2026-10-21"
+  },
+  {
+    "id": "balizoo",
+    "source": "https://www.bali-zoo.com/",
+    "file": "public/photos/venues/balizoo-filled.webp",
+    "retrieved": "2026-10-21"
+  },
+  {
+    "id": "rusters-pottery",
+    "source": "https://rusters.com/pottery/",
+    "file": "public/photos/venues/rusters-pottery-filled.webp",
+    "retrieved": "2026-10-21"
+  },
+  {
+    "id": "balibudaya-farm",
+    "source": "https://www.balibudaya.net/programs/traditional-farming/",
+    "file": "public/photos/venues/balibudaya-farm-filled.webp",
+    "retrieved": "2026-10-21"
+  },
+  {
+    "id": "putu-cooking",
+    "source": "https://cookingclassubud.com/",
+    "file": "public/photos/venues/putu-cooking-filled.webp",
+    "retrieved": "2026-10-21"
+  },
+  {
+    "id": "indigo-culture",
+    "source": "https://seminyak.hotelindigo.com/en/wellness/activities",
+    "file": "public/photos/venues/indigo-culture-filled.webp",
+    "retrieved": "2026-10-21"
+  },
+  {
+    "id": "copper",
+    "source": "https://www.copperubud.com/",
+    "file": "public/photos/venues/copper-filled.webp",
+    "retrieved": "2026-10-21"
+  },
+  {
+    "id": "bale-udang",
+    "source": "https://baleudang.com/",
+    "file": "public/photos/venues/bale-udang-filled.webp",
+    "retrieved": "2026-10-21"
+  },
+  {
+    "id": "milk-madu-ubud",
+    "source": "https://milkandmadu.com/location/",
+    "file": "public/photos/venues/milk-madu-ubud-filled.webp",
+    "retrieved": "2026-10-21"
+  },
+  {
+    "id": "river-warung",
+    "source": "https://www.bambuindah.com/nourish",
+    "file": "public/photos/venues/river-warung-filled.webp",
+    "retrieved": "2026-10-21"
+  },
+  {
+    "id": "merah-putih",
+    "source": "https://merahputihbali.com/restaurant/",
+    "file": "public/photos/venues/merah-putih-filled.webp",
+    "retrieved": "2026-10-21"
+  },
+  {
+    "id": "bambu",
+    "source": "https://bambubali.com/",
+    "file": "public/photos/venues/bambu-filled.webp",
+    "retrieved": "2026-10-21"
+  },
+  {
+    "id": "mades-seminyak",
+    "source": "https://madeswarung.com/restaurant/",
+    "file": "public/photos/venues/mades-seminyak-filled.webp",
+    "retrieved": "2026-10-21"
+  },
+  {
+    "id": "sardine",
+    "source": "https://www.sardineseminyak.com/",
+    "file": "public/photos/venues/sardine-filled.webp",
+    "retrieved": "2026-10-21"
+  },
+  {
+    "id": "tebasari",
+    "source": "https://tebasari.com/tebasari-resto-bar-lounge/",
+    "file": "public/photos/venues/tebasari-filled.webp",
+    "retrieved": "2026-10-21"
+  },
+  {
+    "id": "tepi-sawah",
+    "source": "https://bebektepisawahubud.com/",
+    "file": "public/photos/venues/tepi-sawah-filled.webp",
+    "retrieved": "2026-10-21"
+  },
+  {
+    "id": "la-lucciola",
+    "source": "https://lalucciolabali.com/",
+    "file": "public/photos/venues/la-lucciola-filled.webp",
+    "retrieved": "2026-10-21"
+  },
+  {
+    "id": "batik-dining",
+    "source": "https://batik-bali.com/",
+    "file": "public/photos/venues/batik-dining-filled.webp",
+    "retrieved": "2026-10-21"
+  },
+  {
+    "id": "up2u-surf",
+    "source": "https://www.up2usurfschool.com/",
+    "file": "public/photos/venues/up2u-surf-filled.webp",
+    "retrieved": "2026-10-21"
+  },
+  {
+    "id": "ripcurl-legian",
+    "source": "https://ripcurlschoolofsurf.com/ripcurl-course-surf/",
+    "file": "public/photos/venues/ripcurl-legian-filled.webp",
+    "retrieved": "2026-10-21"
+  }
+]

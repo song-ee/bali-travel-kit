@@ -1,0 +1,13 @@
+'use client';
+import {useEffect,useRef,useState} from 'react';
+import {X,ChevronRight} from 'lucide-react';
+type Info={icon:string;title:string;subtitle:string;lines:string[];links?:{label:string;url:string}[]};
+const info:Info[]=[
+{icon:'✈️',title:'항공',subtitle:'출국 · 귀국',lines:['가는 편 · KE433','2/3 인천 17:50 → 발리 23:55','오는 편 · KE432','2/8 발리 23:50 → 2/9 인천 07:45','모든 항공 시각은 해당 공항 현지 시각.'],links:[{label:'대한항공 예약 조회',url:'https://www.koreanair.com/'}]},
+{icon:'🏡',title:'숙소',subtitle:'우붓 3박 · 스미냑 2박',lines:['2/3–2/6 · 우붓 프라이빗 빌라','2/4 새벽 도착 예정. 심야 입실 방법과 픽업 기사 전달용 위치를 미리 준비.','2/6–2/8 · Hotel Indigo Bali Seminyak Beach','마지막 날 체크아웃 후 짐 보관·샤워 가능 여부 확인.'],links:[{label:'우붓 빌라',url:'https://www.airbnb.co.kr/rooms/1393990005053564210'},{label:'호텔 인디고',url:'https://www.ihg.com/hotelindigo/hotels/us/en/bali/dpsin/hoteldetail'}]},
+{icon:'🚐',title:'이동',subtitle:'공항 픽업 · 숙소 이동',lines:['2/3 밤 · 공항 → 우붓','기사 만나는 위치, 항공편 지연 대기, 실제 수하물 적재 공간 확인.','2/6 · 우붓 → 스미냑','10:30–11:00 출발 계획. 중간 관광 없이 점심과 숙소 이동 우선.','2/8 · 스미냑 → 공항','20:30 공항 도착 목표. 당일 교통을 보고 출발 시각 조정.','차량 업체·기사 연락처·확정 시간은 여행 노트에 기록.']},
+{icon:'🕒',title:'현지 시각',subtitle:'발리는 한국보다 1시간 느림',lines:['한국 10:00 = 발리 09:00','날짜별 코스는 발리 현지 시각 기준.','인천 출발·도착 시각은 한국 시각 기준.']},
+{icon:'🌧️',title:'비 오는 날',subtitle:'한 곳씩 교체하는 대안',lines:['우붓 · 푸리 루키산 미술관, 바틱 체험, 마사지','스미냑 · 실내 쇼핑, 마사지, 숙소 휴식','야외 코스에 추가하지 않고 기존 일정 한 곳과 교체.','서핑·러닝은 현장 기상과 노면 상태에 따라 생략.']},
+{icon:'🧳',title:'출발 전 준비',subtitle:'바로 챙길 물건',lines:['항공·숙소 예약서와 픽업 연락처 오프라인 저장','여행자보험 가입 내역과 연락처 저장','수영복·래시가드·아쿠아슈즈·방수팩','자외선 차단제·모자·우산 또는 우비','개인 복용약·충전기·보조배터리','여권·입국 절차는 준비 체크에서 확인.']}
+];
+export function TravelInfo(){const [active,setActive]=useState<Info|null>(null);const dialog=useRef<HTMLDialogElement>(null);useEffect(()=>{if(active)dialog.current?.showModal();else dialog.current?.close()},[active]);return <><div className="info-grid">{info.map(x=><button className="info-tile" key={x.title} onClick={()=>setActive(x)}><span className="info-icon" aria-hidden="true">{x.icon}</span><span><strong>{x.title}</strong><small>{x.subtitle}</small></span><ChevronRight size={20}/></button>)}</div><dialog ref={dialog} className="info-dialog" aria-label={active?.title||'여행 정보'} onCancel={()=>setActive(null)} onClose={()=>setActive(null)} onClick={e=>{if(e.target===e.currentTarget)setActive(null)}}><div className="place-dialog-toolbar"><b>{active?.title}</b><button aria-label="여행 정보 닫기" onClick={()=>setActive(null)}><X/></button></div><div className="info-dialog-content">{active?.lines.map((line,i)=><p key={i}>{line}</p>)}{active?.links?.map(l=><a className="secondary" key={l.url} href={l.url} target="_blank" rel="noreferrer">{l.label} ↗</a>)}</div></dialog></>}

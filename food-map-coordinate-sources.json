@@ -1,0 +1,92 @@
+{
+  "indus": {
+    "lat": -8.496624,
+    "lon": 115.253509,
+    "source": "https://wanderlog.com/place/details/379964"
+  },
+  "casaluna": {
+    "lat": -8.506253,
+    "lon": 115.260563,
+    "source": "https://wanderlog.com/place/details/471616"
+  },
+  "sisterfields": {
+    "lat": -8.683031,
+    "lon": 115.157552,
+    "source": "https://wanderlog.com/place/details/428049"
+  },
+  "seasalt": {
+    "lat": -8.680587,
+    "lon": 115.150389,
+    "source": "https://wanderlog.com/place/details/43913"
+  },
+  "greenkubu": {
+    "lat": -8.452077,
+    "lon": 115.274263,
+    "source": "https://wanderlog.com/place/details/515162"
+  },
+  "montana": {
+    "lat": -8.267815,
+    "lon": 115.342307,
+    "source": "https://wanderlog.com/place/details/534122"
+  },
+  "merah-putih": {
+    "lat": -8.676707,
+    "lon": 115.154561,
+    "source": "https://wanderlog.com/place/details/384942"
+  },
+  "bambu": {
+    "lat": -8.680151,
+    "lon": 115.153188,
+    "source": "https://wanderlog.com/place/details/121164"
+  },
+  "sardine": {
+    "lat": -8.671608,
+    "lon": 115.162736,
+    "source": "https://wanderlog.com/place/details/385453"
+  },
+  "mades-seminyak": {
+    "lat": -8.689501,
+    "lon": 115.167849,
+    "source": "https://wanderlog.com/place/details/543393"
+  },
+  "copper": {
+    "lat": -8.511542,
+    "lon": 115.25795,
+    "source": "https://wanderlog.com/place/details/433257"
+  },
+  "milk-madu-ubud": {
+    "lat": -8.506302,
+    "lon": 115.262369,
+    "source": "https://wanderlog.com/place/details/372290"
+  },
+  "bale-udang": {
+    "lat": -8.522681,
+    "lon": 115.279632,
+    "source": "https://wanderlog.com/place/details/415572"
+  },
+  "tebasari": {
+    "lat": -8.441616,
+    "lon": 115.280262,
+    "source": "https://wanderlog.com/place/details/478510"
+  },
+  "tepi-sawah": {
+    "lat": -8.523744,
+    "lon": 115.272849,
+    "source": "https://wanderlog.com/place/details/733651"
+  },
+  "la-lucciola": {
+    "lat": -8.682853,
+    "lon": 115.152012,
+    "source": "https://wanderlog.com/place/details/1137358"
+  },
+  "batik-dining": {
+    "lat": -8.684036,
+    "lon": 115.159529,
+    "source": "https://wanderlog.com/place/details/474749"
+  },
+  "river-warung": {
+    "lat": -8.5113569,
+    "lon": 115.2376064,
+    "source": "https://www.chope.co/bali-restaurants/restaurant/river-warung-bambu-indah-ubud"
+  }
+}

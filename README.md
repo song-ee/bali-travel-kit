@@ -16,7 +16,7 @@ npm run build
 npm run start
 ```
 
-React 19, TypeScript, Vinext/Vite, Tailwind CSS를 사용하며 Cloudflare Workers/D1 기반 서버 코드가 포함되어 있습니다. Cloudflare 배포에는 본인 환경의 D1 바인딩과 마이그레이션, 인증 설정이 필요합니다. Sites 전용 호스팅 메타데이터는 `.openai/hosting.json`에 있습니다.
+React 19, TypeScript, Vinext/Vite, Tailwind CSS를 사용하며 Cloudflare Workers/D1 기반 서버 코드가 포함되어 있습니다. Cloudflare 배포에는 본인 환경의 D1 바인딩과 마이그레이션, 인증 설정이 필요합니다. 기존 Sites 프로젝트의 내부 호스팅 메타데이터와 로컬 빌드 캐시는 이 저장소에서 제외했습니다.
 
 ## 저장 방식
 
@@ -40,3 +40,7 @@ React 19, TypeScript, Vinext/Vite, Tailwind CSS를 사용하며 Cloudflare Worke
 업로드 기준 Sites 소스 커밋: `f4bc3c0d1fcaebddc4b65bdaa6c4916e3b4b82c2`.
 
 해당 사이트 버전은 TypeScript 검사와 프로덕션 빌드를 통과했습니다. 외부 환경에서의 인증·D1 설정과 배포는 별도입니다. 원래 사진과 출처 메타데이터를 포함하며, 제3자 사진에 대한 별도 이용 권한을 부여하지 않습니다.
+
+## 사진 업로드 상태
+
+장소 사진 86개는 공개 저장소 업로드 승인 대기 중으로 아직 포함되지 않았습니다. 현재 사진 경로가 남아 있으므로 사진 업로드 전에는 이미지가 표시되지 않을 수 있습니다.
