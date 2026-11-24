@@ -28,12 +28,23 @@ React 19, TypeScript, Vinext/Vite, Tailwind CSS를 사용하며 Cloudflare Worke
 ## 주요 파일
 
 - `app/TripApp.tsx`: 앱 상태, 탐색, 일정, 저장
+- `app/TravelInfo.tsx`: 입국·준비 정보, 8인 이동 비교, 2월 우기 대안
 - `app/candidates.ts`, `app/curated.ts`, `app/dining.ts`: 추천 콘텐츠
 - `app/DiscoveryMaps.tsx`, `app/RunningMap.tsx`: 지도와 코스
 - `app/PlaceDetail.tsx`, `app/Carousel.tsx`: 상세 카드와 캐로셀
 - `app/api/trip/route.ts`: 사용자별 클라우드 저장 API
 - `db/`, `drizzle/`: 데이터베이스 스키마와 마이그레이션
 - `public/photos/`: 사이트에서 사용하는 장소 사진
+
+## 디자인 노트
+
+- 색은 웜 아이보리·스톤 중성 배경(`--paper`, `--surface`)에 딥 오션 틸(`--teal`), 보태니컬 세이지·라임(`--sage`, `--lime`), 테라코타(`--coral`) 액센트로 구성했습니다.
+- 토큰은 `app/butter.css` 끝의 `2027 palette layer`에 모여 있고, `globals.css`·`biotic.css`의 기존 하드코딩 색도 같은 값으로 맞췄습니다.
+- 카드는 낮은 대비의 보더와 부드러운 그림자로 표면을 구분하고, 지도·러닝 코스 SVG 색도 같은 팔레트를 씁니다.
+
+## 여행 준비 정보
+
+`여행 준비` 탭은 e-VOA(도착비자), 발리 관광세, All Indonesia 입국신고, 8인 차량 선택, 2월 우기 실내 대안을 정리합니다. 요금·규정은 2026-11-24 기준 공식 안내로 확인한 값이며, 출발 전 다시 확인해야 합니다.
 
 ## 검증 및 소스
 
