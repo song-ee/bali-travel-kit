@@ -1,0 +1,3 @@
+:HL["/bali-travel-kit/_next/static/css/4598aa66d243b809.css","style"]
+:HL["/bali-travel-kit/_next/static/css/10292af6084b25e1.css","style"]
+0:{"tree":{"name":"","param":null,"prefetchHints":4176,"slots":{"children":{"name":"_not-found","param":null,"prefetchHints":4192,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}}}},"staleTime":300,"buildId":"KAeNPVzxXF6wP5MucBBaC"}
