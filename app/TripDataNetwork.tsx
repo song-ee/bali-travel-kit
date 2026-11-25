@@ -141,7 +141,7 @@ export function TripDataNetwork({data,onNavigate}:{data:TripData;onNavigate:(tab
    rows:[['담아둔 후보',favU+'곳'],['일정 반영',chosen+'개'],['우천 대안','미술관 · 바틱 · 스파']]},
   seminyak:{kicker:'STAY 02 / 02.06 — 02.08',title:'스미냑 2박',big:seminyak.length,unit:'곳 후보',
    rows:[['식당·카페',dining+'곳'],['담아둔 후보',favS+'곳'],['이동','2/6 우붓 → 스미냑']]},
-  plan:{kicker:'PLANNER / LIVE',title:'일정 선택',big:chosen,unit:'개 슬롯 확정',
+  plan:{kicker:'PLANNER / 02.03 — 02.08',title:'일정 선택',big:chosen,unit:'개 슬롯 확정',
    rows:[['전체 슬롯',totalSlots+'개'],['선택한 날',chosenDays+'일'],['전체 후보',places.length+'곳']]},
   prep:{kicker:'BEFORE YOU FLY',title:'준비 체크',big:pct+'%',unit:done+' / '+total+' 완료',
    rows:[['e-VOA','IDR 500,000 · 8명'],['관광세','IDR 150,000 / 인'],['입국신고','도착 3일 전부터']]},
@@ -162,7 +162,6 @@ export function TripDataNetwork({data,onNavigate}:{data:TripData;onNavigate:(tab
  return <section className="data-net" aria-label="여행 데이터 네트워크">
   <div className="data-net-head">
    <div className="data-net-title">
-    <span className="eyebrow">TRIP DATA / LIVE</span>
     <h2>지금 여행 데이터</h2>
    </div>
    <div className="dn-views" role="tablist" aria-label="여행 데이터 보기">
@@ -178,9 +177,6 @@ export function TripDataNetwork({data,onNavigate}:{data:TripData;onNavigate:(tab
      </defs>
      <rect width="1000" height="560" fill={PAPER}/>
      <rect width="1000" height="560" fill="url(#dn-grid)" opacity=".85"/>
-     <text className="dn-artlabel" x="26" y="34">BALI / PIXEL MAP · 8 PEOPLE</text>
-     <text className="dn-artlabel" x="974" y="34" textAnchor="end">5 NIGHTS · 6 DAYS</text>
-     <text className="dn-artlabel dn-foot" x="26" y="534">PIXEL CLUSTER = AREA · RING NODE = STAY / ROUTE</text>
      <g transform="translate(-16 -63) scale(1.16)">
      <g className="dn-drips" aria-hidden="true">
       {DRIPS.map(d=><rect key={d.k} x={d.x} y={d.y} width="7" height="4" rx="1" fill={PERI} opacity={d.o}/>)}
@@ -223,9 +219,6 @@ export function TripDataNetwork({data,onNavigate}:{data:TripData;onNavigate:(tab
         <text className="dn-hub-label" x={h.lx} y={h.ly} textAnchor={h.anchor} fill={on?'#141e3a':'#7e89ac'}>{h.label}</text>
        </g>})}
      </g>
-     </g>
-     <g className="dn-corner" aria-hidden="true">
-      <path d="M18 34V18h16M982 34V18h-16M18 526v16h16M982 526v16h-16" fill="none" stroke="#c9d1e3" strokeWidth="1.4"/>
      </g>
     </svg>
    </div>
